@@ -10,7 +10,7 @@ while (email := input()) != "":
     if shift < 0:
         shift += 26
 
-    print("Key:", shift, "- ", end="")
+    print("Key:", 26 - shift, "- ", end="")
 
     for al in email:
         if al.isalpha():

@@ -1,8 +1,3 @@
-from itertools import cycle
-
-alphaRus = list("АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ")
-alphaEng = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
-
 shift = 0
 firstLetter = ""
 
